@@ -1,0 +1,122 @@
+@media (min-width:1200px) /* lg*/ {
+    .row_pc{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        width: 1170px;
+    }
+    .hotline_hd{
+        margin-top: 35px;
+    }
+    .form_search{
+        margin-top: 63px;
+    }
+    .row_lg_25{
+        margin: 0px -25px;
+    }
+    .row_mg_lg_10{
+        margin: 0px 10px;
+    }
+    .col-lg-612{
+        width: 61.2%;
+    }
+    .col-lg-388{
+        width: 38.8%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+    .nav-menu > .menu-item > .menu-link{
+        font-size: 12px;
+        padding: 8px 6px 7px 6px;
+    }
+    .row_md_25{
+        margin: 0px -25px;
+    }
+    .row_mg_md_10{
+        margin: 0px 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .button_book_room {
+        margin-top: 15px;
+    }
+    .input_group_room1, .input_group_room2, .input_group_room3 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box_book_room{
+        margin-top: 15px;
+    }
+    .box_bg_home{
+        background: #eeeeee ;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:767px) /* xs*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .form_search{
+        width: 100%;
+    }
+    .input_group_room1, .input_group_room2, .input_group_room3 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box_book_room{
+        margin-top: 15px;
+    }
+    .sc_banner_home{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .box_bg_home{
+        background: #eeeeee ;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:480px) {
+    .col-480-12{
+        width: 100% !important;
+    }
+    .col-480-6{
+        width: 50% !important;
+    }
+    .hidden-480{
+        display: none !important;
+    }
+    .visible-480{
+        display: block !important;
+    }
+    .tit_home{
+        width: 100%;
+    }
+    .tit_home>span,
+    .tit_home>a{
+        padding-right: 15px;
+    }
+    .img_news_home{
+        width: 100%;
+        float: none;
+        text-align: center;
+        display: block;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .img_news_home img{
+        width: 165px;
+    }
+}
+
+
+.visible-480{
+    display: none;
+}
